@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Multiples of 3 and 5</title>
+
+	<link rel = "stylesheet" type = "text/css" href= "styles/styles.css">
+
+</head>
+<body>
+		<h1> Multiples of 3 and 5</h1>
+
+		<p>Type in any number above 10 to find out how many multiples of 3 and 5 are less than your selected number: </p>
+		<input type = "text" class = "input"> </input>
+		<button class = "submit">Submit</button>
+		<button class = "another">Enter another number</button>
+		<div class = "answers" >
+			<div class = "number-orig">
+			</div>
+			<div class = "multiple-count">
+			</div>
+			<div class = "sequence">
+			</div>
+			<div class = 'sum'>
+			</div>
+			
+		</div>
+<script src = "https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src = "scripts/main.js"></script>
+</body>

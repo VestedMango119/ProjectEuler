@@ -1,0 +1,7 @@
+.answers{
+	background-color:#FFFFFF;
+	height: scale();
+	width:1000px;
+	border: solid 1px #000000;
+
+}

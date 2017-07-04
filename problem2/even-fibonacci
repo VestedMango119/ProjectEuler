@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<head>
+
+	<title>Even Fibonacci numbers</title>
+	<link rel = "stylesheet" type = "text/css" href= "styles/styles.css">
+</head>
+<body>
+	<h1>Even Fibonacci Numbers</h1>
+	<p>Enter an upper limit for the fibonacci sequence to be calculated up to: </p>
+	<input type="text" class = "input"> </input>
+	<button type = "button" class="submit">Submit</button>
+	<button type = "button" class="submit-two">Submit full sequence</button>
+	<button type = "button" class="another">Enter another number</button>
+
+	<div class = "answers">
+		<div class = "limit"></div>
+		<div class = "sequence"></div>
+		<div class = "even-sum"></div>
+	</div>
+<script src = "https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src = "scripts/main.js"></script>
+</body>
+
+
+
+
